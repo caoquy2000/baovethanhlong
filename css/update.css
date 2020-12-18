@@ -15,7 +15,7 @@
     bottom: 0;
     right: 0;
     background-color: #000;
-    opacity: 0.4;
+    opacity: 0.2;
     /* z-index: -100000; */
 }
 .icon-security {
@@ -36,6 +36,7 @@
 .btn-click-show {
     border-radius: 5px;
     color: #f16821;
+    border: none;
 }
 .ouline-card {
     border: 1px solid black;
@@ -76,7 +77,7 @@
     color: #fff;
 }
 .div-why-choose {
-    background-image: linear-gradient(to right top, #4250e7, #007dfb, #00a1ff, #3bc0fc, #8ddcf8);
+   background-color: #4250e7;
 }
 .bg-card-header {
     background-color: #fff0;
@@ -86,4 +87,122 @@
 }
 .card-header {
     border-bottom: none;
+}
+.height-fill {
+    width: 300px;
+    height: 300px;
+}
+.div-first-time {
+    width: 100%;
+    height: 100%;
+}
+.div-card-service {
+    width: 300px;
+    height: 300px;
+
+  
+}
+.div-card-service a {
+    width: 100%;
+    height: 100%;
+    color: #4250e7;
+    border: 0.2px solid black;
+}
+.card-1 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card-2 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-3 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-4 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.btn-lien-he-first {
+    padding: 10px 40px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.btn-lien-he-first:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+.swiper-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.swiper-container::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* background: black; */
+}
+/* tuyendung */
+.content-tuyendung {
+    width: 100vw;
+}
+.content_block-tuyendung {
+    padding: 0px 300px;
+    margin-top: 50px;
+    text-align: left;
+}
+.content_before-tuyendung {
+    width: 100%;
+}
+.content_before-tuyendung h2 {
+    font-size: 40px;
+}
+.content_before-tuyendung h3 {
+    font-size: 30px;
+}
+.spotlight_content_price {
+    background-color: rgb(243, 119, 18);
+    display: inline-block;
+}
+.content_text {
+    font-size: 20px;
+}
+/* reponsive tuyendung */
+@media (max-width:1400px){
+    .content_block-tuyendung {
+        padding: 0px 100px;
+    }
+}
+@media (max-width:600px){
+    .content_block-tuyendung {
+        padding: 0px 10px;
+    }
+}
+/* reponsive tuyendung */
+/* Baogia */
+.container_content_report {
+    width: 100vw;
+    text-align: left;
+}
+.content_block_report {
+    width: 100%;
+    padding: 0px 300px;
+    margin-top: 50px;
+}
+.content_block_report h1 {
+    font-size: 50px;
+}
+/* reponsive bao gia */
+@media (max-width: 1400px) {
+    .content_block_report {
+        padding: 0 100px;
+    }
+}
+@media (max-width: 600px) {
+    .content_block_report {
+        padding: 0 10px;
+    }
 }

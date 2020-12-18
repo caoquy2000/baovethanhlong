@@ -1610,7 +1610,8 @@ html .button-mandy .badge {
 }
 
 .page .button.button-link:hover {
-	border-color: #f16821;
+	border-color: #fff;
+	color: #fff;
 	padding-left: 16px;
 	padding-right: 16px;
 }

@@ -17,10 +17,11 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/update.css">
-  <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <link rel="shortcut icon" href="./images/logo-bao-ve-thanh-long01.ico" type="image/x-icon">
+  <script src="js/typed.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/typed.min.js.map"></script>
 </head>
 
 <body>
@@ -30,6 +31,7 @@
         <!-- <a class="brand brand-md" href="index.html"><img src="images/logo-bao-ve-thanh-long.png" width="115" height="42"
             alt="logo" /></a> -->
         <p class="page-load-title ">Bảo Vệ Thanh Long</p>
+        <!-- <span id="type1"></span> -->
         <div class="page-loader-body">
           <div id="spinningSquaresG">
             <div class="spinningSquaresG" id="spinningSquaresG_1"></div>
@@ -63,13 +65,13 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.html">Trang Chủ</a>
                   </li>
-                  <li><a id="btn-baogia" href="#baogia">Báo Giá</a>
+                  <li><a id="btn-baogia" href="baogia.html">Báo Giá</a>
 
                   </li>
                   <li><a id="btn-dichvu" href="#dichvu">Dịch Vụ</a>
 
                   </li>
-                  <li><a id="btn-tuyendung" href="#tuyendung">Tuyển Dụng</a>
+                  <li><a id="btn-tuyendung" href="./tuyendung.html">Tuyển Dụng</a>
 
                   </li>
                   <li><a id="btn-tintuc" href="#tintuc">Tin Tức</a>
@@ -108,28 +110,27 @@
       </div>
     </header>
 
-    <section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500"
-      data-simulate-touch="true">
-      <div class="swiper-wrapper text-center">
-        <div class="swiper-slide" data-slide-bg="images/bao-ve-thanh-long-01.jpg">
-          <div class="swiper-slide-caption">
+    <section class="swiper-container swiper-slider swiper-variant-1 bg-black div-header-first" data-loop="false"
+      data-autoplay="5500" data-simulate-touch="true" style="background-image: url(./images/bao-ve-thanh-long-01.jpg);">
+      <div class="swiper-wrapper text-center ">
+        <div class="swiper-slide ">
+          <div class="swiper-slide-caption ">
             <div class="container">
               <div class="row justify-content-md-center">
-                <div class="col-md-11 col-lg-10 col-xl-9">
-                  <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s"
+                <div class="col-md-11 col-lg-10 col-xl-9 div-fixed-first">
+                  <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="2s"
                     style="color: #fff;">Bảo Vệ Thanh Long
                   </h2>
                   <p class="slider-text" data-caption-animate="fadeInUp" data-caption-delay="300">Dịch Vụ Bảo Vệ Uy Tín
-                    Chất Lượng</p><a class="button button-link button-link-primary" href="pricing.html"
+                    Chất Lượng</p>
+                  <a class="button button-link button-link-primary btn-lien-he-first" href="pricing.html"
                     data-caption-animate="fadeInUp" data-caption-delay="600">Liên Hệ</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="fixed-div">
 
-        </div>
       </div>
     </section>
 
@@ -138,7 +139,7 @@
       <div class="container section-relative">
         <div class="row row-40" style="transform: translateY(-15px);">
           <div class="col-md-6 col-xl-3 height-fill">
-            <article class="icon-box">
+            <article class="icon-box div-first-time ">
               <div class="box-top">
                 <div class="box-icon">
                   <svg version="1.1" x="0px" y="0px" width="52" height="52" viewbox="0 0 43.598 44"
@@ -159,13 +160,13 @@
                   <h5><a href="#">Tiết Kiệm Thời Gian</a></h5>
                 </div>
               </div>
-              <div class="box-body">
+              <!-- <div class="box-body">
                 <p class="text-gray text-spacing-50">We offer lots of ways to quickly pay off your loans.</p>
-              </div>
+              </div> -->
             </article>
           </div>
           <div class="col-md-6 col-xl-3 height-fill">
-            <article class="icon-box">
+            <article class="icon-box div-first-time ">
               <div class="box-top">
                 <div class="box-icon">
                   <svg version="1.1" x="0px" y="0px" width="52" height="48" viewbox="0 0 45 42"
@@ -187,13 +188,13 @@
                   <h5><a href="#">Hoàn Tiền 100%</a></h5>
                 </div>
               </div>
-              <div class="box-body">
+              <!-- <div class="box-body">
                 <p class="text-gray text-spacing-50">We offer lots of ways to quickly pay off your loans</p>
-              </div>
+              </div> -->
             </article>
           </div>
           <div class="col-md-6 col-xl-3 height-fill">
-            <article class="icon-box">
+            <article class="icon-box div-first-time ">
               <div class="box-top">
                 <div class="box-icon"><img src="./images/like.png" alt="">
                 </div>
@@ -201,13 +202,13 @@
                   <h5><a href="#">Chất Lượng</a></h5>
                 </div>
               </div>
-              <div class="box-body">
+              <!-- <div class="box-body">
                 <p class="text-gray text-spacing-50">We have lower rates than most of our competitors.</p>
-              </div>
+              </div> -->
             </article>
           </div>
           <div class="col-md-6 col-xl-3 height-fill">
-            <article class="icon-box">
+            <article class="icon-box div-first-time ">
               <div class="box-top">
                 <div class="box-icon">
                   <svg version="1.1" x="0px" y="0px" width="37" height="58" viewbox="0 0 30 45.016"
@@ -240,9 +241,9 @@
                   <h5><a href="#">Uy Tín</a></h5>
                 </div>
               </div>
-              <div class="box-body">
+              <!-- <div class="box-body">
                 <p class="text-gray text-spacing-50">We offer lots of ways to quickly pay off your loans</p>
-              </div>
+              </div> -->
             </article>
           </div>
         </div>
@@ -289,36 +290,37 @@
       <div class="container text-lg-left ">
         <div class="row row-30 justify-content-lg-between ">
           <div class="col-lg-5">
-            <h2>Vì Sao Nên Chọn Bảo Vệ Thanh Long</h2>
+            <span id="typed2" class="typed-fade-out"></span>
+            <!-- <span id="typed-strings" style="display: none;">Vì Sao Nên Chọn Bảo Vệ Thanh Long</span> -->
           </div>
           <div class="col-lg-6 col-lg-divider">
             <div id="accordion">
               <div class="card div-card">
                 <div class="card-header bg-card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link btn-click-show" data-toggle="collapse" data-target="#collapseOne"
-                      aria-expanded="true" aria-controls="collapseOne">
+                  <h5 class="mb-0 div-first-time ">
+                    <button class="btn btn-link btn-click-show div-first-time " data-toggle="collapse"
+                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Dịch Vụ Tốt
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
                     </button>
                   </h5>
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                    labore sustainable VHS.
+                    Hơn 10 kinh nghiệm là công ty dịch vụ bảo vệ. Với đội ngũ lãnh đạo dày dặn kinh nghiệm, chúng tôi tự
+                    tin là đơn vị cung cấp dịch vụ bảo vệ uy tín chất lượng cao được nhiều đối tác và khách hàng tin
+                    tưởng trong nhiều năm.
                   </div>
                 </div>
               </div>
               <div class="card div-card">
                 <div class="card-header bg-card-header" id="headingTwo">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed btn-click-show" data-toggle="collapse"
+                  <h5 class="mb-0 div-first-time ">
+                    <button class="btn btn-link collapsed btn-click-show div-first-time " data-toggle="collapse"
                       data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Nhân Viên Nhiệt Tình
                     </button>
@@ -326,20 +328,22 @@
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                    labore sustainable VHS.
+                    Đến với dịch vụ bảo vệ của Thanh Long, quý khách có thể an tâm tuyệt đối về hiệu quả và khả năng làm
+                    việc mà nhân viên của chúng tôi mang lại. Nguồn lao động của chúng tôi được tuyển chọn sát sao từ
+                    những thanh niên có độ tuổi từ 19 - 40 sức khỏe ổn định. Đặc biệt là những thanh niên xuất ngũ hay
+                    bộ đội về hưu. Sau đó trải qua quá trình rèn luyện chuyên môn và võ thuật, các kĩ năng PCCC, kĩ năng
+                    xử lí tình huống. Để đảm bảo có nguồn nhân lực chất lượng tốt nhất đến quý khách hàng.
+
+                    Ngoài ra nhân viên ở Bảo Vệ Thanh Long còn được rèng luyện thêm nhiều kĩ năng khác nhau. Đảm bảo
+                    thái
+                    độ nghiêm túc, làm việc trung thực, kĩ năng chuyên môn cao, giao tiếp tốt với khách hàng.
                   </div>
                 </div>
               </div>
               <div class="card div-card">
                 <div class="card-header bg-card-header" id="headingThree">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed btn-click-show" data-toggle="collapse"
+                  <h5 class="mb-0 div-first-time ">
+                    <button class="btn btn-link collapsed btn-click-show div-first-time " data-toggle="collapse"
                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Uy Tín Chất Lượng
                     </button>
@@ -347,13 +351,11 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                    labore sustainable VHS.
+                    Tốt nghiệp từ nhiều trường đại học nổi tiếng về kinh tế và quản lí nhân sự. Bảo Vệ Thanh Long được
+                    xây
+                    dựng từ ban lãnh đạo chất lượng, giàu kinh nghiệm. Với nguồn vốn đầu tư lớn, Bảo Vệ Thanh Long đã
+                    hoạt
+                    động ổn định hơn 10 năm trong lĩnh vực dịch vụ bảo vệ.
                   </div>
                 </div>
               </div>
@@ -375,24 +377,23 @@
                 <div class="box-outline ouline-card">
                   <div class="list-index-counter"></div>
                   <h5 class="text-dark">Nhận Yêu Cầu Từ Khách Hàng</h5>
-                  <p class="text-spacing-50 text-dark">Just answer a few quick questions about your education and
-                    employment.</p>
+                  <p class="text-spacing-50 text-dark">Trao đổi, nhận thông tin của khách hàng.</p>
                 </div>
               </li>
               <li class="col-sm-6 col-lg-4">
                 <div class="box-outline ouline-card">
                   <div class="list-index-counter"></div>
                   <h5 class="text-dark">Khảo Sát Đánh Giá Mục Tiêu</h5>
-                  <p class="text-spacing-50 text-dark">Just answer a few quick questions about your education and
-                    employment.</p>
+                  <p class="text-spacing-50 text-dark">Gặp trực tiếp khách hàng, kiểm tra, khảo sát đánh giá mục tiêu.
+                  </p>
                 </div>
               </li>
               <li class="col-sm-6 col-lg-4">
                 <div class="box-outline ouline-card">
                   <div class="list-index-counter"></div>
                   <h5 class="text-dark">Báo Giá & Hợp Đồng</h5>
-                  <p class="text-spacing-50 text-dark">Just answer a few quick questions about your education and
-                    employment.</p>
+                  <p class="text-spacing-50 text-dark">Thành lập hợp đồng, kí kết thảo luận giữa công ty và khách hàng.
+                  </p>
                 </div>
               </li>
             </ul>
@@ -400,55 +401,56 @@
         </div>
       </div>
     </section>
-    <section id = "dichvu" class="section-75 section-xl-145 section-service">
+    <section id="dichvu" class="section-75 section-xl-145 section-service">
       <h2 style="margin-top: 10px;">Dịch Vụ</h2>
       <div class="container">
         <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card">
-            <a href="#">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service ">
+            <a href="#" class="card-1">
               <div class="card border-primary mb-3" style="max-width: 25rem;">
                 <div class="card-header">Dịch Vụ</div>
-                <div class="card-body text-primary">
+                <div class="card-body text-dark">
                   <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                  <p class="card-text">Là dịch vụ bảo vệ các mục tiêu cố định như nhà hàng, khách sạn, trường học, chung
+                    cư, quán bar, đảm bảo an ninh an toàn cho tài sản và các hoạt động của của mục tiêu.</p>
                 </div>
               </div>
             </a>
 
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card">
-            <a href="#">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service ">
+            <a href="#" class="card-2">
               <div class="card border-primary mb-3" style="max-width: 25rem;">
                 <div class="card-header">Dịch Vụ</div>
-                <div class="card-body text-primary">
-                  <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Bảo Vệ Giữ Xe</h5>
+                  <p class="card-text">Là dịch vụ bảo vệ giữ xe tại các Công Ty, Văn phòng, Cửa hàng, Chung cư, nhà
+                    hàng, trung tâm thương mại v.v.. Phục vụ, đảm bảo an ninh cho tài sản của khách hàng tại các khu vực
+                    quản lí giữ xe.</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card">
-            <a href="#">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service ">
+            <a href="#" class="card-3">
               <div class="card border-primary mb-3" style="max-width: 25rem;">
                 <div class="card-header">Dịch Vụ</div>
-                <div class="card-body text-primary">
-                  <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Bảo Vệ Mục Tiêu Cố Định</h5>
+                  <p class="card-text">Là dịch vụ bảo vệ các mục tiêu cố định như nhà hàng, khách sạn, trường học, chung
+                    cư, quán bar, đảm bảo an ninh an toàn cho tài sản và các hoạt động của của mục tiêu.</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card">
-            <a href="#">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service">
+            <a href="#" class=" card-4">
               <div class="card border-primary mb-3" style="max-width: 25rem;">
                 <div class="card-header">Dịch Vụ</div>
-                <div class="card-body text-primary">
-                  <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Bảo Vệ Chất Lượng Cao</h5>
+                  <p class="card-text">Dịch vụ bảo vệ uy tín nhất Thành Phố Hồ Chí Minh. Hoạt động minh bạch, hợp đồng
+                    quy trình làm việc rõ ràng đảm bảo sẽ làm hài lòng quý khách.</p>
                 </div>
               </div>
             </a>
@@ -508,21 +510,18 @@
       </button>
 
     </section>
-    <section class="section-75 section-lg-100 bg-porcelain">
+    <section class="section-75 section-lg-100 " style="background-color: #4250e7; color: rgba(255, 255, 255, 0.863);">
       <div class="container">
         <div class="row row-50 align-items-sm-center justify-content-lg-between">
           <div class="col-lg-6 col-xl-5 text-lg-left">
-            <h2>Kết Nối <br class="d-none d-lg-blcok"> Với Chúng Tôi
+            <h2 style="color: rgba(255, 255, 255, 0.863);">Kết Nối <br class="d-none d-lg-blcok"> Với Chúng Tôi
             </h2>
-            <h5 class="offset-top-15 text-spacing-50">Bảo Vệ Thanh Long</h5>
+            <h5 style="color: rgba(255, 255, 255, 0.863);" class="offset-top-15 text-spacing-50">Bảo Vệ Thanh Long</h5>
 
           </div>
           <div class="col-lg-5">
             <div class="section-dividers-white">
-              <p style="font-size: 20px;">Với đội ngũ lãnh đạo dày dặn kinh nghiệm, chúng tôi tự tin là đơn vị cung cấp
-                dịch vụ bảo vệ uy tín
-                chất lượng cao được nhiều đối tác và khách hàng tin tưởng trong nhiều năm.
-              </p>
+              <span id="typed3" class="typed-fade-out"></span>
             </div>
           </div>
         </div>
@@ -583,7 +582,7 @@
                     </p>
                   </div>
                 </div>
-           
+
               </blockquote>
             </div>
           </div>
@@ -625,9 +624,9 @@
           </div>
         </div>
       </div>
-      <div class="container container-top-0">
+      <!-- <div class="container container-top-0">
         <hr>
-      </div>
+      </div> -->
 
     </footer>
 
@@ -637,10 +636,9 @@
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/update.js"></script>
-  <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0"
-      width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
-  <!-- End Google Tag Manager -->
+
+
+
 </body>
 
 </html>
