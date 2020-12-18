@@ -1600,7 +1600,7 @@ html .button-mandy .badge {
 	padding: 10px 0;
 	border-color: transparent;
 	border-width: 2px;
-	border-bottom-color: #4250e7;
+	border-bottom-color: #f16821;
 	background: transparent;
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -1610,13 +1610,13 @@ html .button-mandy .badge {
 }
 
 .page .button.button-link:hover {
-	border-color: #4250e7;
+	border-color: #f16821;
 	padding-left: 16px;
 	padding-right: 16px;
 }
 
 .page .button.button-link-primary-white {
-	color: #4250e7;
+	color: #f16821;
 }
 
 .page .button.button-link-primary-white:hover {
@@ -1625,7 +1625,7 @@ html .button-mandy .badge {
 }
 
 .page .button.button-link-primary {
-	color: #4250e7;
+	color: #f16821;
 }
 
 .page .button.button-link-white {

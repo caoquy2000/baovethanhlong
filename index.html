@@ -63,16 +63,16 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.html">Trang Chủ</a>
                   </li>
-                  <li><a href="#">Báo Giá</a>
+                  <li><a id="btn-baogia" href="#baogia">Báo Giá</a>
 
                   </li>
-                  <li><a href="#">Dịch Vụ</a>
+                  <li><a id="btn-dichvu" href="#dichvu">Dịch Vụ</a>
 
                   </li>
-                  <li><a href="#">Tuyển Dụng</a>
+                  <li><a id="btn-tuyendung" href="#tuyendung">Tuyển Dụng</a>
 
                   </li>
-                  <li><a href="#">Tin Tức</a>
+                  <li><a id="btn-tintuc" href="#tintuc">Tin Tức</a>
 
                   </li>
                 </ul>
@@ -285,16 +285,16 @@
       </div>
     </section>
 
-    <section class="section-60 section-lg-100 section-transform bg-transform context-dark">
-      <div class="container text-lg-left">
-        <div class="row row-30 justify-content-lg-between">
+    <section class="section-60 section-lg-100 section-transform bg-transform context-dark ">
+      <div class="container text-lg-left ">
+        <div class="row row-30 justify-content-lg-between ">
           <div class="col-lg-5">
             <h2>Vì Sao Nên Chọn Bảo Vệ Thanh Long</h2>
           </div>
           <div class="col-lg-6 col-lg-divider">
             <div id="accordion">
               <div class="card div-card">
-                <div class="card-header" id="headingOne">
+                <div class="card-header bg-card-header" id="headingOne">
                   <h5 class="mb-0">
                     <button class="btn btn-link btn-click-show" data-toggle="collapse" data-target="#collapseOne"
                       aria-expanded="true" aria-controls="collapseOne">
@@ -316,7 +316,7 @@
                 </div>
               </div>
               <div class="card div-card">
-                <div class="card-header" id="headingTwo">
+                <div class="card-header bg-card-header" id="headingTwo">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed btn-click-show" data-toggle="collapse"
                       data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -337,7 +337,7 @@
                 </div>
               </div>
               <div class="card div-card">
-                <div class="card-header" id="headingThree">
+                <div class="card-header bg-card-header" id="headingThree">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed btn-click-show" data-toggle="collapse"
                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -361,7 +361,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-transform-inner bg-colin"></div>
+      <div class="bg-transform-inner bg-colin div-why-choose"></div>
     </section>
 
     <!-- Material Parallax-->
@@ -400,8 +400,8 @@
         </div>
       </div>
     </section>
-    <section class="section-75 section-xl-145 section-service">
-      <h2 style ="margin-top: 10px;">Dịch Vụ</h2>
+    <section id = "dichvu" class="section-75 section-xl-145 section-service">
+      <h2 style="margin-top: 10px;">Dịch Vụ</h2>
       <div class="container">
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card">
@@ -457,7 +457,7 @@
       </div>
     </section>
 
-    <section class="section-75 section-xl-145 bg-default  ">
+    <section id="baogia" class="section-75 section-xl-145 bg-default  ">
       <h2 style="width: 100%;">Báo Giá</h2>
       <div class="div-table-report d-flex flex-wrap justify-content-center align-items-center">
         <div class="table_report">
@@ -502,10 +502,11 @@
           </table>
         </div>
       </div>
-      <button type="button" class="btn btn-primary btn-lien-he" data-toggle="button" aria-pressed="false" autocomplete="off">
+      <button type="button" class="btn btn-primary btn-lien-he" data-toggle="button" aria-pressed="false"
+        autocomplete="off">
         Liên Hệ
       </button>
-      
+
     </section>
     <section class="section-75 section-lg-100 bg-porcelain">
       <div class="container">
@@ -514,18 +515,20 @@
             <h2>Kết Nối <br class="d-none d-lg-blcok"> Với Chúng Tôi
             </h2>
             <h5 class="offset-top-15 text-spacing-50">Bảo Vệ Thanh Long</h5>
-           
+
           </div>
           <div class="col-lg-5">
             <div class="section-dividers-white">
-              <p>I recently closed a mortgage loan through FastCredit and I was extremely pleased with the
-                procedure. This company has the most experienced loan experts.</p>
+              <p style="font-size: 20px;">Với đội ngũ lãnh đạo dày dặn kinh nghiệm, chúng tôi tự tin là đơn vị cung cấp
+                dịch vụ bảo vệ uy tín
+                chất lượng cao được nhiều đối tác và khách hàng tin tưởng trong nhiều năm.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section-75 section-lg-100 text-left bg-default">
+    <section id="tintuc" class="section-75 section-lg-100 text-left bg-default">
       <div class="container">
         <div class="row row-40">
           <div class="col-md-6 col-lg-4">
@@ -533,31 +536,17 @@
               <blockquote class="quote-bordered">
                 <div class="quote-body">
                   <div class="quote-body-inner">
-                    <h5 class="text-spacing-0">I’m recommending you to all my colleagues </h5>
-                    <ul class="list-inline list-inline-0">
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                    </ul>
+                    <h5 class="text-spacing-0">Thuê bảo vệ ở đâu ? </h5>
+
                     <p>
-                      <q>I recently closed a mortgage loan through FastCredit and I was extremely pleased with the
-                        procedure. This company has the most experienced loan experts.</q>
+                      <q>Với sứ mệnh đồng hành cùng doanh nghiệp phát triển, Bảo Vệ Thanh Long đã và đang trở thành đơn
+                        vị
+                        cung cấp dịch vụ bảo vệ hàng đầu ở Thành Phố Hồ Chí Minh. Đến với Bảo Vệ Thanh Long sẽ là sự lựa
+                        chọn tốt nhất cho doanh nghiệp của bạn.</q>
                     </p>
                   </div>
                 </div>
-                <div class="quote-footer">
-                  <div class="unit flex-row unit-spacing-sm align-items-center">
-                    <div class="unit-left"><img class="img-circle" src="images/clients-testimonials-1-68x68.jpg" alt=""
-                        width="68" height="68" />
-                    </div>
-                    <div class="unit-body">
-                      <cite>Susan Bennett</cite>
-                      <p class="font-italic text-primary">Manager</p>
-                    </div>
-                  </div>
-                </div>
+
               </blockquote>
             </div>
           </div>
@@ -566,31 +555,16 @@
               <blockquote class="quote-bordered">
                 <div class="quote-body">
                   <div class="quote-body-inner">
-                    <h5 class="text-spacing-0">I got a loan quickly and I felt like they really cared about me</h5>
-                    <ul class="list-inline list-inline-0">
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star-half"></span></li>
-                    </ul>
+                    <h5 class="text-spacing-0">Vì sao nên chọn bảo vệ Thanh Long</h5>
+
                     <p>
-                      <q>All went well at the closing of my mortgage last week. FastCredit made the process as painless
-                        as possible and did everything in a professional and timely manner.</q>
+                      <q>Là một công ty bảo vệ với tổ chức chuyên nghiệp. Từ ban quản trị đến hệ thống quản lí nhân sự.
+                        Mọi thứ đều được giám sát liên kết chặt chẽ. Cùng với đội ngũ nhân viên có trình độ nghiệp vụ
+                        cao đảm bảo quý khách sẽ hài lòng khi sử dụng dịch vụ ở Bảo Vệ Thanh Long</q>
                     </p>
                   </div>
                 </div>
-                <div class="quote-footer">
-                  <div class="unit flex-row unit-spacing-sm align-items-center">
-                    <div class="unit-left"><img class="img-circle" src="images/clients-testimonials-2-68x68.jpg" alt=""
-                        width="68" height="68" />
-                    </div>
-                    <div class="unit-body">
-                      <cite>Jeffrey Neddery</cite>
-                      <p class="font-italic text-primary">Student</p>
-                    </div>
-                  </div>
-                </div>
+
               </blockquote>
             </div>
           </div>
@@ -599,32 +573,17 @@
               <blockquote class="quote-bordered">
                 <div class="quote-body">
                   <div class="quote-body-inner">
-                    <h5 class="text-spacing-0">FastCredit cared and did everything to make the process fast and simple!
+                    <h5 class="text-spacing-0">Những điều cần biết khi sử dụng dịch vụ bảo vệ.
                     </h5>
-                    <ul class="list-inline list-inline-0">
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                      <li><span class="icon icon-sm text-warning mdi mdi-star"></span></li>
-                    </ul>
+
                     <p>
-                      <q> I just wanted to thank you and your colleagues for the role you played in my apartment
-                        closing, which occurred yesterday without a hitch. You are real professionals!</q>
+                      <q>Nhiều công ty khi hợp tác với khách hàng, quy trình rất phức tạp. Hợp đồng lại không rõ ràng,
+                        vì thế khi lựa chọn công ty bảo vệ quý khách nên chọn những công ty được cấp giấy phép đủ điều
+                        kiện kinh doanh . Xử lí yêu cầu nhanh chóng hỗ trợ khách hàng nhiệt tình.</q>
                     </p>
                   </div>
                 </div>
-                <div class="quote-footer">
-                  <div class="unit flex-row unit-spacing-sm align-items-center">
-                    <div class="unit-left"><img class="img-circle" src="images/clients-testimonials-3-68x68.jpg" alt=""
-                        width="68" height="68" />
-                    </div>
-                    <div class="unit-body">
-                      <cite>Amanda smith</cite>
-                      <p class="font-italic text-primary">Sales Manager</p>
-                    </div>
-                  </div>
-                </div>
+           
               </blockquote>
             </div>
           </div>
@@ -635,7 +594,7 @@
       <div class="container section-top-70 section-bottom-50 text-sm-left">
         <div class="row row-50">
           <div class="col-sm-6 col-lg-3">
-            <h6 class="page-footer-title">Contact us</h6>
+            <h6 class="page-footer-title">Địa chỉ</h6>
             <ul class="list">
               <li><a href="callto:#">+1 (409) 987–5874</a></li>
               <li><a href="mailto:#">info@demolink.org</a></li>
@@ -660,56 +619,24 @@
             </ul>
           </div>
           <div class="col-sm-6 col-lg-3">
-            <h6 class="page-footer-title">Still have questions?</h6>
-            <p class="text-spacing-0">Feel free to contact our loan agents.</p><a
-              class="button button-icon button-icon-right button-dark button-rect" href="callto:#"><span
-                class="icon icon-xs-smaller fl-bigmug-line-phone351"></span>make a call now</a>
+            <h6 class="page-footer-title">Liên hệ</h6>
+            <p class="text-spacing-0">Hotline:</p>
+            <p class="text-spacing-0">Email:</p>
           </div>
         </div>
       </div>
       <div class="container container-top-0">
         <hr>
       </div>
-      <div class="container container-top-0 section-top-50 section-bottom-30 small text-spacing-50 text-sm-left">
-        <p>Estimated savings are calculated based on the credit profiles of all loans originated as of December 01, 2016
-          in which the funds were used for credit card refinancing. FastCredit calculates estimated savings by deriving
-          current credit card APR using minimum monthly payment and 1% of the principal balance. We then compare
-          estimated credit card APR to FastCredit APR to determine median savings per borrower. To evaluate savings on a
-          loan you are considering, it is important to compare your actual APR from your existing debt to the APR
-          offered by our company.</p>
-        <p> Loans used to fund education related expenses are subject to a 3 business day wait period between loan
-          acceptance and funding in accordance with federal law. While most of our borrowers opt for automated recurring
-          payment for ease of use, we also accept payments by check or one time electronic payments. Borrowers have the
-          flexibility to choose the repayment method that works best for them.</p>
-        <p>The average 3-year loan on FastCredit will have an APR of 17% and 36 monthly payments of $31 per $1,000
-          borrowed. The average APR on FastCredit is calculated based on 3-year rates offered in the last 1 month. You
-          can find out more information from our agents.</p>
-      </div>
-      <div class="container section-top-15 section-bottom-60">
-        <div class="row text-center">
-          <div class="col-sm-4 text-sm-right order-sm-1">
-            <ul class="list-inline list-inline-xs">
-              <li><a class="icon icon-sm-custom link-tundora-inverse fa-instagram" href="#"></a></li>
-              <li><a class="icon icon-sm-custom link-tundora-inverse fa-facebook" href="#"></a></li>
-              <li><a class="icon icon-sm-custom link-tundora-inverse fa-twitter" href="#"></a></li>
-            </ul>
-          </div>
-          <div class="col-sm-8 text-sm-left text-spacing-0">
-            <p class="rights"><span>FastCredit</span><span>&nbsp;&#169;&nbsp;</span><span
-                class="copyright-year"></span><span>. </span><br class="d-md-none"><a
-                class="text-underline link-primary-inverse" href="privacy-policy.html">Privacy Policy</a></p>
-          </div>
-        </div>
-      </div>
+
     </footer>
 
   </div>
   <!-- Panel Thumbnail-->
   <!-- Template panel-->
-
-  <div class="snackbars" id="form-output-global"></div>
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/update.js"></script>
   <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0"
       width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');</script>
