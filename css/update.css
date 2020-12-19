@@ -454,3 +454,10 @@
  
 }
 /* reponsive service */
+/* reponsive slider header */
+@media only screen and (max-width: 600px) {
+    .slider-header {
+        font-size: 35px !important;
+    }
+    
+}
