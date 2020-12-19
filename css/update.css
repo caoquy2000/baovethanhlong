@@ -51,7 +51,7 @@
     align-items: center;
 }
 .table_report {
-    width: 1000px;
+    width: 100%;
     height: 300px;
     text-align: center;
 }
@@ -237,6 +237,8 @@
     font-size: 50px;
     color: rgba(255, 115, 0, 0.87);
 }
+
+
 /* Bao ve su kien */
 /* fix logo */
 .fix-logo {
@@ -420,3 +422,35 @@
     }
   }
 /* nut goi dien */
+/* reponsive service */
+@media only screen and (max-width: 1400px) {
+    .fix_height_service_05 {
+        padding: 50px 100px;
+    }
+}
+@media only screen and  (max-width: 600px) {
+    .fix_height_service_05 {
+        padding: 50px 10px;
+    }
+    .fix_height_service_05 h1 {
+        font-size: 30px;
+        color: rgba(255, 115, 0, 0.87);
+    }
+    .fix_height_service_05 h2 {
+        font-size: 20px;
+    }
+    .content_before-tuyendung h2 {
+        font-size: 30px;
+    }
+    .content_before-tuyendung h3 {
+        font-size: 25px;
+    }
+    .content_block_report h1 {
+        font-size: 35px;
+    }
+    .content_block_report h2 {
+        font-size: 25px;
+    }
+ 
+}
+/* reponsive service */
