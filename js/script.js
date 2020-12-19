@@ -852,12 +852,12 @@ $(function () {
 	 * UI To Top
 	 * @description Enables ToTop Button
 	 */
-	if (isDesktop && !isNoviBuilder) {
-		$().UItoTop({
-			easingType: 'easeOutQuart',
-			containerClass: 'ui-to-top fa fa-angle-up'
-		});
-	}
+	// if (isDesktop && !isNoviBuilder) {
+	// 	$().UItoTop({
+	// 		easingType: 'easeOutQuart',
+	// 		containerClass: 'ui-to-top fa fa-angle-up'
+	// 	});
+	// }
 
 	/**
 	 * RD Navbar

@@ -31264,7 +31264,7 @@ html:not(.lt-ie10) .not-animated {
 	position: absolute;
 	left: 0;
 	top: 0;
-	bottom: 0;
+	bottom: -20px;
 	right: 0;
 	box-shadow: none;
 	border-bottom: 1px solid #e5e7e9;

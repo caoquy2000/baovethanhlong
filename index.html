@@ -8,16 +8,16 @@
     content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- <script src="/cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script> -->
+
   <link rel="stylesheet" type="text/css"
     href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,400italic,700,900%7CPlayfair+Display:700italic,900">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/update.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script> -->
   <link rel="shortcut icon" href="./images/logo-bao-ve-thanh-long01.ico" type="image/x-icon">
   <script src="js/typed.min.js"></script>
   <script src="js/typed.js"></script>
@@ -58,7 +58,7 @@
             <div class="rd-navbar-panel">
               <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                 data-custom-toggle-disable-on-blur="true"><span></span></button><a class="rd-navbar-brand brand"
-                href="index.html"><img src="images/logo-bao-ve-thanh-long.png" width="103" height="37" alt="logo" /></a>
+                href="index.html"><img src="images/logo-bao-ve-thanh-long.png" class="fix-logo" width="103" height="37" alt="logo" /></a>
             </div>
             <div class="rd-navbar-nav-wrap">
               <div class="rd-navbar-nav-inner">
@@ -68,7 +68,7 @@
                   <li><a id="btn-baogia" href="baogia.html">Báo Giá</a>
 
                   </li>
-                  <li><a id="btn-dichvu" href="#dichvu">Dịch Vụ</a>
+                  <li><a id="btn-dichvu" href="./dichvu.html">Dịch Vụ</a>
 
                   </li>
                   <li><a id="btn-tuyendung" href="./tuyendung.html">Tuyển Dụng</a>
@@ -101,7 +101,7 @@
                   </svg>
                 </div>
                 <div class="unit-body">
-                  <p>Điên Thoại</p><a href="callto:#">+94 000 000 00</a>
+                  <p>Điên Thoại</p><a href="callto:#">+94 903 605195</a>
                 </div>
               </div>
             </div>
@@ -250,56 +250,64 @@
       </div>
 
     </section>
-    <section id="dichvu" class="section-75 section-xl-145 section-service">
-      <h2 style="margin-top: 10px;">Dịch Vụ</h2>
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service ">
-            <a href="#" class="card-1">
-              <div class="card border-primary mb-3" style="max-width: 25rem;">
-                <div class="card-header">Dịch Vụ</div>
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
-                  <p class="card-text">Là dịch vụ bảo vệ các mục tiêu cố định như nhà hàng, khách sạn, trường học, chung
-                    cư, quán bar, đảm bảo an ninh an toàn cho tài sản và các hoạt động của của mục tiêu.</p>
-                </div>
-              </div>
-            </a>
-
-          </div> -->
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service " style="margin-top: 10px;">
-            <a href="#" class="card-2">
-              <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
-                <div class="container-img-service" style="background-image: url(./images/cong-ty-bao-ve-thanh-long-06.jpg);
+    <section id="dichvu" class="section-75 section-xl-145 section-service"
+    style="display: flex; justify-content: center; align-items: center;">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 block-card div-card-service "
+          style="margin-top: 10px; height: 500px;">
+          <a href="#" class="card-1">
+            <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
+              <div class="container-img-service" style="background-image: url(./images/cong-ty-bao-ve-thanh-long-06.jpg);
                 width: 100%;"></div>
-                <h5 class="card-title">Bảo Vệ Giữ Xe</h5>
+              <h5 class="card-title">Bảo Vệ Sự Kiện</h5>
+              <p class="content-service-page" >Công ty Bảo vệ Thanh Long, tự hào là đơn vị cung cấp dịch vụ bảo vệ sự kiện uy tín chuyên nghiệp nhất
+                tại Sài Gòn và các tỉnh thành lân cận miền Nam. Đối với mọi sự kiện có quy mô lớn nhỏ đa dạng, nhân
+                viên của chúng tôi luô..</p>
+            </div>
+          </a>
 
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service " style="margin-top: 10px;">
-            <a href="#" class="card-3">
-              <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
-                <div class="container-img-service" style="background-image: url(./images/baove-muc-tieu-co-dinh.jpg);
+        </div> -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service "
+          style="margin-top: 10px; height: 500px;">
+          <a href="./bao-ve-giu-xe.html" class="card-2">
+            <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
+              <div class="container-img-service" style="background-image: url(./images/cong-ty-bao-ve-thanh-long-06.jpg);
                 width: 100%;"></div>
-                <h5 class="card-title">Bảo Vệ Mục Tiêu Cố Định</h5>
-
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service" style="margin-top: 10px;">
-            <a href="#" class=" card-4">
-              <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
-                <div class="container-img-service" style="background-image: url(./images/baove-chat-luong-cao.jpg);
+              <h5 class="card-title">Bảo Vệ Giữ Xe</h5>
+              <p class="content-service-page">Công ty Thanh Long tự hào là doanh nghiệp cung cấp dịch vụ bảo vệ uy tín và chuyên nghiệp tại Sài
+                Gòn và các tỉnh miền Nam. Đảm bảo an toàn tuyệt đối cho tài sản của khách hàng.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service "
+          style="margin-top: 10px; height: 500px;">
+          <a href="./bao-ve-muc-tieu-co-dinh.html" class="card-3">
+            <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
+              <div class="container-img-service" style="background-image: url(./images/baove-muc-tieu-co-dinh.jpg);
                 width: 100%;"></div>
-                <h5 class="card-title">Bảo Vệ Chất Lượng Cao</h5>
-
-              </div>
-            </a>
-          </div>
+              <h5 class="card-title">Bảo Vệ Mục Tiêu Cố Định</h5>
+              <p class="content-service-page">Bảo vệ mục tiêu cố định luôn được xem là nhiệm vụ bảo vệ cơ yêu và quan trọng nhất, bởi mục tiêu bảo
+                vệ cố định luôn là nhiệm vụ quan trọng, có giá trị cao như: bảo vệ các trụ sở cơ quan cố định, bảo vệ
+                văn..</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 block-card div-card-service"
+          style="margin-top: 10px; height: 500px;">
+          <a href="./bao-ve-chat-luong-cao.html" class=" card-4">
+            <div class="card border-primary mb-3" style="width: 100%; height: 100%;">
+              <div class="container-img-service" style="background-image: url(./images/baove-chat-luong-cao.jpg);
+                width: 100%;"></div>
+              <h5 class="card-title">Bảo Vệ Chất Lượng Cao</h5>
+              <p class="content-service-page">Công ty Thanh Long tự hào cung cấp dịch vụ bảo vệ chất lượng cao đến quý doanh nghiệp khách hàng
+                tại Sài Gòn. Là một đơn vị cung cấp dịch vụ bảo vệ chuyên nghiệp và uy tín hơn 10 năm qua tại HCM.</p>
+            </div>
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- <section class="section-slide-aboutus">
       <div class="container container-top-0 section-60 section-lg-top-80 section-lg-bottom-100">
@@ -679,26 +687,26 @@
           <div class="col-sm-6 col-lg-3">
             <h6 class="page-footer-title">Địa chỉ</h6>
             <ul class="list">
-              <li><a href="callto:#">+1 (409) 987–5874</a></li>
-              <li><a href="mailto:#">info@demolink.org</a></li>
-              <li>6036 Richmond hwy.,<br> Alexandria, VA, 2230</li>
+              <li><a href="callto:(028) 36363761">(028) 36363761</a></li>
+              <li><a href="mailto:#">info@</a></li>
+              <li>427/22/14 Minh Phụng, Phường 10<br> Quận 11, TP.HCM, Việt Nam</li>
             </ul>
           </div>
           <div class="col-sm-6 col-lg-3">
-            <h6 class="page-footer-title">Products</h6>
+            <h6 class="page-footer-title">Dịch Vụ</h6>
             <ul class="list">
-              <li><a href="#">Credit Cards</a></li>
-              <li><a href="#">Student Loans</a></li>
-              <li><a href="#">Mortgages</a></li>
-              <li><a href="#">Personal Loans</a></li>
+              <li><a href="./bao-ve-su-kien.html">Bảo Vệ Sự Kiện</a></li>
+              <li><a href="./bao-ve-giu-xe.html">Bảo Vệ Giữ Xe</a></li>
+              <li><a href="./bao-ve-muc-tieu-co-dinh.html">Bảo Vệ Mục Tiêu Cố Định</a></li>
+              <li><a href="./bao-ve-chat-luong-cao.html">Bảo Vệ Chất Lượng Cao</a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-lg-3">
             <h6 class="page-footer-title">About us</h6>
             <ul class="list">
-              <li><a href="#">Social Media</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Our History</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
             </ul>
           </div>
           <div class="col-sm-6 col-lg-3">
@@ -711,7 +719,22 @@
       <!-- <div class="container container-top-0">
         <hr>
       </div> -->
-
+      <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+            <a href="tel:0971821777" class="pps-btn-img">
+                <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+            </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0987654321">
+                <span class="text-hotline">0971821777</span>
+            </a>
+        </div>
+    </div>
     </footer>
 
   </div>
